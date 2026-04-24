@@ -1,5 +1,4 @@
-
-DROP DATABASE ShopDB;
+USE ShopDB
 
 -- Create your stored procedure here
 DELIMITER //
@@ -12,3 +11,5 @@ BEGIN
     WHERE WarehouseID = warehouse_id;
 END //
 DELIMITER ;
+
+DROP DATABASE ShopDB; 
