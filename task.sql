@@ -1,5 +1,6 @@
 USE ShopDB; 
 
+DROP DATABASE ShopDB;
 -- Create your stored procedure here
 DELIMITER //
 CREATE PROCEDURE get_warehouse_product_inventory(IN warehouse_id INT)
